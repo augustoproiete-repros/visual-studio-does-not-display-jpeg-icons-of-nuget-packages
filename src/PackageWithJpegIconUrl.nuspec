@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>PackageWithJpegIconUrl</id>
+    <version>1.0.0</version>
+    <authors>augustoproiete</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.githubusercontent.com/augustoproiete-repros/visual-studio-does-not-display-jpeg-icons-of-nuget-packages/master/asset/icon.jpeg</iconUrl>
+    <description>NuGet Package that uses a JPEG icon URL</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0" />
+    </dependencies>
+  </metadata>
+</package>
