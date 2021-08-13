@@ -1,5 +1,7 @@
 ## Visual Studio does not display JPEG icons of NuGet packages
 
+> https://github.com/NuGet/Home/issues/11144
+
 From the [nuspec documentation](https://docs.microsoft.com/en-us/nuget/reference/nuspec#icon) (emphasis mine):
 
 >
