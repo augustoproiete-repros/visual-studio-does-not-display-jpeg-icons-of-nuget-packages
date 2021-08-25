@@ -27,6 +27,19 @@ Task("pack")
         Version = buildVersion.PackageVersion,
         OutputDirectory = "./build/artifacts",
     });
+
+    NuGetPack("./src/PackageWithMSPaintJpegIconUrl.nuspec", new NuGetPackSettings
+    {
+        Version = buildVersion.PackageVersion,
+        OutputDirectory = "./build/artifacts",
+    });
+
+    NuGetPack("./src/PackageWithMSPaintJpegIconEmbedded.nuspec", new NuGetPackSettings
+    {
+        Version = buildVersion.PackageVersion,
+        OutputDirectory = "./build/artifacts",
+    });
+
 });
 
 Task("push")
