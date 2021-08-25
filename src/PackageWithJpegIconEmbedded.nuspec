@@ -6,6 +6,8 @@
     <authors>augustoproiete</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <icon>images\icon.jpeg</icon>
+    <projectUrl>https://github.com/augustoproiete-repros/visual-studio-does-not-display-jpeg-icons-of-nuget-packages</projectUrl>
+    <repository type="git" url="https://github.com/augustoproiete-repros/visual-studio-does-not-display-jpeg-icons-of-nuget-packages.git" />
     <description>NuGet Package that uses a JPEG icon embedded</description>
     <dependencies>
       <group targetFramework=".NETStandard2.0" />
